@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hongyan.androiddemo.MainActivity">
+    tools:context="com.hongyan.ui.UIActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,15 +13,15 @@
         <Button
             android:onClick="onClick01"
             style="@style/button"
-            android:text="UI控件" />
+            android:text="线" />
         <Button
             android:onClick="onClick02"
             style="@style/button"
-            android:text="网络库" />
+            android:text="框" />
         <Button
             android:onClick="onClick03"
             style="@style/button"
-            android:text="Utils" />
+            android:text="Image" />
     </LinearLayout>
 
 </ScrollView>
