@@ -16,15 +16,19 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClick01(View v){
+    public void onClick01(View v) {
         startActivity(new Intent(MainActivity.this, UIActivity.class));
     }
 
-    public void onClick02(View v){
-        Toast.makeText(this,"Button02",Toast.LENGTH_SHORT).show();
+    public void onClick02(View v) {
+        Toast.makeText(this, "Button02", Toast.LENGTH_SHORT).show();
     }
 
-    public void onClick03(View v){
-        Toast.makeText(this,"Button03",Toast.LENGTH_SHORT).show();
+    public void onClick03(View v) {
+        Toast.makeText(this, "Button03", Toast.LENGTH_SHORT).show();
+    }
+
+    public void onClick04(View v) {
+        Toast.makeText(this, "Button04", Toast.LENGTH_SHORT).show();
     }
 }

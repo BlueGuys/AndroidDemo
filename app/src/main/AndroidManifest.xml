@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.hongyan.ui.UIActivity" />
+        <activity android:name="com.hongyan.ui.UICommonActivity" />
+        <activity android:name="com.hongyan.ui.UIShapeActivity" />
     </application>
 
 </manifest>

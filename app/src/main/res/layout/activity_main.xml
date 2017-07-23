@@ -22,6 +22,10 @@
             android:onClick="onClick03"
             style="@style/button"
             android:text="Utils" />
+        <Button
+            android:onClick="onClick04"
+            style="@style/button"
+            android:text="Java基础" />
     </LinearLayout>
 
 </ScrollView>

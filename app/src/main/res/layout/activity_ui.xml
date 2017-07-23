@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hongyan.ui.UIActivity">
+    tools:context="com.hongyan.ui.UIActivity"
+    android:scrollbars="none">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,13 +14,37 @@
         <Button
             android:onClick="onClick01"
             style="@style/button"
-            android:text="线" />
+            android:text="基础控件" />
         <Button
             android:onClick="onClick02"
             style="@style/button"
-            android:text="框" />
+            android:text="圆角" />
         <Button
             android:onClick="onClick03"
+            style="@style/button"
+            android:text="Shape" />
+        <Button
+            android:onClick="onClick04"
+            style="@style/button"
+            android:text="Canvas" />
+        <Button
+            android:onClick="onClick05"
+            style="@style/button"
+            android:text="Image" />
+        <Button
+            android:onClick="onClick06"
+            style="@style/button"
+            android:text="Image" />
+        <Button
+            android:onClick="onClick07"
+            style="@style/button"
+            android:text="Image" />
+        <Button
+            android:onClick="onClick08"
+            style="@style/button"
+            android:text="Image" />
+        <Button
+            android:onClick="onClick09"
             style="@style/button"
             android:text="Image" />
     </LinearLayout>
