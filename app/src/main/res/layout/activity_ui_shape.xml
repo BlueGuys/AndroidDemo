@@ -17,23 +17,19 @@
             android:text="圆形" />
 
         <View
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            style="@style/viewTest"
             android:background="@drawable/bg_shape_rectangle" />
 
         <View
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            style="@style/viewTest"
             android:background="@drawable/bg_shape_oval" />
 
         <View
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            style="@style/viewTest"
             android:background="@drawable/bg_shape_line" />
 
         <View
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            style="@style/viewTest"
             android:background="@drawable/bg_shape_ring" />
     </LinearLayout>
 
