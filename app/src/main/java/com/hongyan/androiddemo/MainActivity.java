@@ -3,10 +3,11 @@ package com.hongyan.androiddemo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
+import com.hongyan.anim.AnimationActivity;
 import com.hongyan.base.BaseActivity;
-import com.hongyan.ui.UIActivity;
+import com.hongyan.res.ResourceActivity;
+import com.hongyan.utils.UtilActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -17,18 +18,18 @@ public class MainActivity extends BaseActivity {
     }
 
     public void onClick01(View v) {
-        startActivity(new Intent(MainActivity.this, UIActivity.class));
+        startActivity(new Intent(MainActivity.this, ResourceActivity.class));
     }
 
     public void onClick02(View v) {
-       
+        startActivity(new Intent(MainActivity.this, AnimationActivity.class));
     }
 
     public void onClick03(View v) {
-        Toast.makeText(this, "Button03", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(MainActivity.this, UtilActivity.class));
     }
 
     public void onClick04(View v) {
-        Toast.makeText(this, "Button04", Toast.LENGTH_SHORT).show();
+
     }
 }

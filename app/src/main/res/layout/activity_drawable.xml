@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="none"
-    tools:context="com.hongyan.ui.UIActivity">
+    tools:context="com.hongyan.res.drawable.DrawableActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -56,6 +56,11 @@
             style="@style/button"
             android:onClick="onClick09"
             android:text="Scale" />
+
+        <Button
+            style="@style/button"
+            android:onClick="onClick10"
+            android:text="Inset" />
     </LinearLayout>
 
 </ScrollView>

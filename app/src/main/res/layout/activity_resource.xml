@@ -10,26 +10,22 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal|top"
         android:orientation="vertical">
-
         <Button
-            style="@style/button"
             android:onClick="onClick01"
-            android:text="资源类型" />
-
-        <Button
             style="@style/button"
+            android:text="可绘制对象" />
+        <Button
             android:onClick="onClick02"
-            android:text="动画" />
-
-        <Button
             style="@style/button"
+            android:text="布局" />
+        <Button
             android:onClick="onClick03"
-            android:text="工具类" />
-
-        <Button
             style="@style/button"
+            android:text="颜色状态列表" />
+        <Button
             android:onClick="onClick04"
-            android:text="自定义View" />
+            style="@style/button"
+            android:text="样式" />
     </LinearLayout>
 
 </ScrollView>

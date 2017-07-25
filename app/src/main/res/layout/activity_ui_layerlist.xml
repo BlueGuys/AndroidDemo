@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.hongyan.res.drawable.UICommonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textLabel"
+            android:text="重叠图标" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_layer_launcher" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="阴影Button" />
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_layer_button" />
+
+        <TextView
+            style="@style/textDesc"
+            android:text="LayerDrawable 是管理其他可绘制对象阵列的可绘制对象。列表中的每个可绘制对象按照列表的顺序绘制，列表中的最后一个可绘制对象绘于顶部。" />
+
+    </LinearLayout>
+
+</ScrollView>

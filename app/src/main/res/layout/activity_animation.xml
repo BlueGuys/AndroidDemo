@@ -3,33 +3,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hongyan.androiddemo.MainActivity">
+    tools:context="com.hongyan.anim.AnimationActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal|top"
         android:orientation="vertical">
-
         <Button
-            style="@style/button"
             android:onClick="onClick01"
-            android:text="资源类型" />
-
-        <Button
             style="@style/button"
+            android:text="属性动画" />
+        <Button
             android:onClick="onClick02"
-            android:text="动画" />
-
-        <Button
             style="@style/button"
+            android:text="视图动画" />
+        <Button
             android:onClick="onClick03"
-            android:text="工具类" />
-
-        <Button
             style="@style/button"
+            android:text="Drawable动画" />
+        <Button
             android:onClick="onClick04"
-            android:text="自定义View" />
+            style="@style/button"
+            android:text="Canvas和Drawable" />
     </LinearLayout>
 
 </ScrollView>

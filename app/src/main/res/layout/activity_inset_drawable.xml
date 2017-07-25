@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.hongyan.res.drawable.UICommonActivity">
+
+    <TextView
+        style="@style/textLabel"
+        android:text="插入可绘制对象" />
+
+    <TextView
+        style="@style/textDesc"
+        android:text="在 XML 文件中定义的以指定距离插入其他可绘制对象的可绘制对象。当视图需要小于视图实际边界的背景时，此类可绘制对象很有用。" />
+
+    <View
+        style="@style/viewTest"
+        android:background="@drawable/bg_drawable_inset" />
+
+</LinearLayout>

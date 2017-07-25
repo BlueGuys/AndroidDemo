@@ -16,11 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hongyan.ui.UIActivity" />
-        <activity android:name="com.hongyan.ui.UICommonActivity" />
-        <activity android:name="com.hongyan.ui.UIShapeActivity" />
-        <activity android:name="com.hongyan.ui.UIBitmapActivity" />
+        <activity android:name="com.hongyan.res.drawable.DrawableActivity" />
+        <activity android:name="com.hongyan.res.ResourceActivity" />
+        <activity android:name="com.hongyan.res.drawable.UICommonActivity" />
+        <activity android:name="com.hongyan.res.drawable.UIShapeActivity" />
+        <activity android:name="com.hongyan.res.drawable.UIBitmapActivity" />
         <activity android:name="com.hongyan.base.BaseWebViewActivity" />
+        <activity android:name="com.hongyan.anim.AnimationActivity" />
+        <activity android:name="com.hongyan.utils.UtilActivity" />
+        <activity android:name="com.hongyan.res.drawable.UILayerListActivity" />
+        <activity android:name="com.hongyan.res.drawable.InsetDrawableActivity" />
     </application>
 
 </manifest>
