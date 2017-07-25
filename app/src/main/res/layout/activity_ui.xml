@@ -3,50 +3,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hongyan.ui.UIActivity"
-    android:scrollbars="none">
+    android:scrollbars="none"
+    tools:context="com.hongyan.ui.UIActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal|top"
         android:orientation="vertical">
+
         <Button
+            style="@style/button"
             android:onClick="onClick01"
-            style="@style/button"
-            android:text="基础控件" />
+            android:text="Bitmap" />
+
         <Button
+            style="@style/button"
             android:onClick="onClick02"
-            style="@style/button"
-            android:text="圆角" />
+            android:text="NinePatch" />
+
         <Button
+            style="@style/button"
             android:onClick="onClick03"
-            style="@style/button"
             android:text="Shape" />
+
         <Button
+            style="@style/button"
             android:onClick="onClick04"
-            style="@style/button"
-            android:text="Canvas" />
+            android:text="Layer" />
+
         <Button
+            style="@style/button"
             android:onClick="onClick05"
-            style="@style/button"
-            android:text="Image" />
+            android:text="StateList" />
+
         <Button
+            style="@style/button"
             android:onClick="onClick06"
-            style="@style/button"
-            android:text="Image" />
+            android:text="LeverList" />
+
         <Button
+            style="@style/button"
             android:onClick="onClick07"
-            style="@style/button"
-            android:text="Image" />
+            android:text="Transition" />
+
         <Button
+            style="@style/button"
             android:onClick="onClick08"
-            style="@style/button"
-            android:text="Image" />
+            android:text="Clip" />
+
         <Button
-            android:onClick="onClick09"
             style="@style/button"
-            android:text="Image" />
+            android:onClick="onClick09"
+            android:text="Scale" />
     </LinearLayout>
 
 </ScrollView>

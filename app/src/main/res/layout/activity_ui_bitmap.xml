@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.hongyan.ui.UICommonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textLabel"
+            android:text="center" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="20dp"
+            android:scaleType="center"
+            android:src="@drawable/hello" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="centerCrop" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hello" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="centerInside" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/hello" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="形状" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hello" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="fitStart" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="20dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/hello" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="fitEnd" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="20dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/hello" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="fitXY" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/hello" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="matrix" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="20dp"
+            android:scaleType="matrix"
+            android:src="@drawable/hello" />
+
+    </LinearLayout>
+
+</ScrollView>

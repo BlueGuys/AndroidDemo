@@ -18,7 +18,7 @@ public class UIActivity extends BaseActivity {
     }
 
     public void onClick01(View v) {
-        startActivity(new Intent(UIActivity.this, UICommonActivity.class));
+        startActivity(new Intent(UIActivity.this, UIBitmapActivity.class));
     }
 
     public void onClick02(View v) {

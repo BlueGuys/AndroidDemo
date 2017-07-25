@@ -13,7 +13,7 @@
         <Button
             android:onClick="onClick01"
             style="@style/button"
-            android:text="UI控件" />
+            android:text="drawable" />
         <Button
             android:onClick="onClick02"
             style="@style/button"

@@ -19,6 +19,7 @@
         <activity android:name="com.hongyan.ui.UIActivity" />
         <activity android:name="com.hongyan.ui.UICommonActivity" />
         <activity android:name="com.hongyan.ui.UIShapeActivity" />
+        <activity android:name="com.hongyan.ui.UIBitmapActivity" />
         <activity android:name="com.hongyan.base.BaseWebViewActivity" />
     </application>
 
