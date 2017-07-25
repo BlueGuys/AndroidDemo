@@ -21,9 +21,29 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <style name="textDesc" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:background">@drawable/bg_text_desc</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
     <style name="viewTest">
         <item name="android:layout_width">100dp</item>
         <item name="android:layout_height">100dp</item>
+    </style>
+
+    <style name="imageViewTest">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">#dddddd</item>
     </style>
 
     <style name="button" parent="Widget.AppCompat.Button">

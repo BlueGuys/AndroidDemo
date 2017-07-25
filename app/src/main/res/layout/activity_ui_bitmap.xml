@@ -12,94 +12,100 @@
         android:gravity="center_horizontal|top"
         android:orientation="vertical">
 
+        <!-- ********************** ScaleType.center ******************** -->
         <TextView
             style="@style/textLabel"
             android:text="center" />
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_margin="20dp"
+            style="@style/imageViewTest"
+            android:scaleType="center"
+            android:src="@drawable/hello_small" />
+
+        <ImageView
+            style="@style/imageViewTest"
             android:scaleType="center"
             android:src="@drawable/hello" />
 
+        <TextView
+            style="@style/textDesc"
+            android:text="按图片的原来size居中显示，当图片长/宽超过View的长/宽，则截取图片的居中部分显示" />
+
+        <!-- ********************** ScaleType.centerCrop ******************** -->
         <TextView
             style="@style/textLabel"
             android:text="centerCrop" />
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_margin="20dp"
+            style="@style/imageViewTest"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hello_small" />
+
+        <ImageView
+            style="@style/imageViewTest"
             android:scaleType="centerCrop"
             android:src="@drawable/hello" />
 
+        <TextView
+            style="@style/textDesc"
+            android:text="按比例扩大图片的size居中显示，使得图片长(宽)等于或大于View的长(宽) ,图片比例不失真" />
+
+        <!-- ********************** ScaleType.centerInside ******************** -->
         <TextView
             style="@style/textLabel"
             android:text="centerInside" />
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_margin="20dp"
+            style="@style/imageViewTest"
+            android:scaleType="centerInside"
+            android:src="@drawable/hello_small" />
+
+        <ImageView
+            style="@style/imageViewTest"
             android:scaleType="centerInside"
             android:src="@drawable/hello" />
 
         <TextView
+            style="@style/textDesc"
+            android:text="将图片的内容完整居中显示，通过按比例缩小或原来的size使得图片长/宽等于或小于View的长/宽 ,图片比例不失真" />
+
+        <!-- ********************** ScaleType.fitCenter ******************** -->
+        <TextView
             style="@style/textLabel"
-            android:text="形状" />
+            android:text="fitCenter" />
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_margin="20dp"
+            style="@style/imageViewTest"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hello_small" />
+
+        <ImageView
+            style="@style/imageViewTest"
             android:scaleType="fitCenter"
             android:src="@drawable/hello" />
 
         <TextView
-            style="@style/textLabel"
-            android:text="fitStart" />
+            style="@style/textDesc"
+            android:text="把图片按比例扩大/缩小到View的宽度，居中显示。\n FIT_START, FIT_END在图片缩放效果上与FIT_CENTER一样，只是显示的位置不同，FIT_START是置于顶部，FIT_CENTER居中，FIT_END置于底部" />
 
-        <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_margin="20dp"
-            android:scaleType="fitStart"
-            android:src="@drawable/hello" />
-
-        <TextView
-            style="@style/textLabel"
-            android:text="fitEnd" />
-
-        <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_margin="20dp"
-            android:scaleType="fitEnd"
-            android:src="@drawable/hello" />
-
+        <!-- ********************** ScaleType.fitXY ******************** -->
         <TextView
             style="@style/textLabel"
             android:text="fitXY" />
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_margin="20dp"
+            style="@style/imageViewTest"
+            android:scaleType="fitXY"
+            android:src="@drawable/hello_small" />
+
+        <ImageView
+            style="@style/imageViewTest"
             android:scaleType="fitXY"
             android:src="@drawable/hello" />
 
         <TextView
-            style="@style/textLabel"
-            android:text="matrix" />
-
-        <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_margin="20dp"
-            android:scaleType="matrix"
-            android:src="@drawable/hello" />
-
+            style="@style/textDesc"
+            android:text="不按比例缩放图片，目标是把图片塞满整个View。" />
     </LinearLayout>
 
 </ScrollView>
