@@ -14,7 +14,7 @@
 
         <TextView
             style="@style/textLabel"
-            android:text="圆形" />
+            android:text="形状" />
 
         <View
             style="@style/viewTest"
@@ -31,6 +31,38 @@
         <View
             style="@style/viewTest"
             android:background="@drawable/bg_shape_ring" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="圆角" />
+
+        <View
+            style="@style/viewTest"
+            android:background="@drawable/bg_shape_corners" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="渐变" />
+
+        <View
+            style="@style/viewTest"
+            android:background="@drawable/bg_shape_gradient_liner" />
+
+        <View
+            style="@style/viewTest"
+            android:background="@drawable/bg_shape_gradient_radial" />
+
+        <View
+            style="@style/viewTest"
+            android:background="@drawable/bg_shape_gradient_sweep" />
+
+        <TextView
+            style="@style/textLabel"
+            android:text="边框" />
+
+        <View
+            style="@style/viewTest"
+            android:background="@drawable/bg_shape_stroke" />
     </LinearLayout>
 
 </ScrollView>

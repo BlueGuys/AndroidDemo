@@ -21,7 +21,7 @@ public class MainActivity extends BaseActivity {
     }
 
     public void onClick02(View v) {
-        Toast.makeText(this, "Button02", Toast.LENGTH_SHORT).show();
+       
     }
 
     public void onClick03(View v) {
