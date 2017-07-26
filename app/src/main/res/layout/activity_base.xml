@@ -3,14 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hongyan.androiddemo.MainActivity">
+    tools:context="com.hongyan.androiddemo.com.hongyan.activity.MainActivity">
 
-    <TextView
+    <com.hongyan.widget.NavigationView
         android:id="@+id/navigation"
         android:layout_width="match_parent"
-        android:layout_height="44dp"
-        android:gravity="center"
-        android:text="你好" />
+        android:layout_height="wrap_content"/>
 
     <LinearLayout
         android:id="@+id/contentLayout"

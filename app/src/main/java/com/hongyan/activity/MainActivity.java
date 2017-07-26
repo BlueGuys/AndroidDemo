@@ -1,13 +1,13 @@
-package com.hongyan.androiddemo;
+package com.hongyan.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.hongyan.androiddemo.R;
 import com.hongyan.anim.AnimationActivity;
 import com.hongyan.base.BaseActivity;
 import com.hongyan.res.ResourceActivity;
-import com.hongyan.utils.UtilActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -15,6 +15,7 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle(getString(R.string.activity_main));
     }
 
     public void onClick01(View v) {

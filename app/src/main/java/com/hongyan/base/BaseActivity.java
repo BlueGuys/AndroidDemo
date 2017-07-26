@@ -7,9 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.hongyan.androiddemo.R;
+import com.hongyan.widget.NavigationView;
 import com.hongyan.widget.loading.LoadingDialog;
 import com.hongyan.widget.tost.IToast;
 
@@ -19,8 +19,7 @@ import com.hongyan.widget.tost.IToast;
 public abstract class BaseActivity extends Activity {
 
     private LoadingDialog dialog;
-    private LinearLayout rootLayout;
-    private TextView tvTitle;
+    private NavigationView navigationView;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -29,15 +28,21 @@ public abstract class BaseActivity extends Activity {
 
     public void setContentView(int ResLayout) {
         View rootView = LayoutInflater.from(this).inflate(R.layout.activity_base, null, false);
-        rootLayout = (LinearLayout) rootView.findViewById(R.id.contentLayout);
-        tvTitle = (TextView) rootView.findViewById(R.id.navigation);
+        LinearLayout rootLayout = (LinearLayout) rootView.findViewById(R.id.contentLayout);
+        navigationView = (NavigationView) rootView.findViewById(R.id.navigation);
         View contentView = LayoutInflater.from(this).inflate(ResLayout, null, false);
         rootLayout.addView(contentView, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         setContentView(rootView);
+        navigationView.setOnBackClickListener(new NavigationView.OnBackClickListener() {
+            @Override
+            public void callBack() {
+                finish();
+            }
+        });
     }
 
     protected void setTitle(String title) {
-        tvTitle.setText(title);
+        navigationView.setTitle(title);
     }
 
     public void showSuccessToast(String message) {

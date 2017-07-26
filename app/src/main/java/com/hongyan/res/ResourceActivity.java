@@ -16,6 +16,7 @@ public class ResourceActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resource);
+        setTitle(getString(R.string.activity_resource));
     }
 
     public void onClick01(View v) {

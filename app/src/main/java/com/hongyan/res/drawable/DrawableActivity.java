@@ -15,6 +15,7 @@ public class DrawableActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawable);
+        setTitle(getString(R.string.activity_drawable));
     }
 
     public void onClick01(View v) {

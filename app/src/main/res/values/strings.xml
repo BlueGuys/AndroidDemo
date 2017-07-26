@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Demo示例程序</string>
+
+
+    <string name="activity_main">Developer</string>
+    <string name="activity_drawable">可绘制对象</string>
+    <string name="activity_resource">Android资源</string>
+    <string name="activity_shape">形状</string>
+    <string name="activity_bitmap">图片资源</string>
+    <string name="activity_animation">动画</string>
+    <string name="activity_utils">工具箱</string>
+    <string name="activity_layerList">层叠布局</string>
+    <string name="activity_InsetDrawable">插入布局</string>
+
+
 </resources>
