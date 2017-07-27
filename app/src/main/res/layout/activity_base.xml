@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hongyan.androiddemo.com.hongyan.activity.MainActivity">
+    tools:context="com.hongyan.activity.MainActivity">
 
     <com.hongyan.widget.NavigationView
         android:id="@+id/navigation"
