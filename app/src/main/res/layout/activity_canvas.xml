@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical">
+
+        <com.hongyan.widget.canvas.CanvasTestView
+            android:id="@+id/canvas"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <Button
+            style="@style/button"
+            android:onClick="onClick01"
+            android:text="切换图形" />
+
+        <com.hongyan.widget.canvas.CanvasBitmapMeshView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

@@ -98,12 +98,11 @@ public final class DisplayUtils {
     /**
      * 获取屏幕宽度
      *
-     * @param activity Activity
      * @return 屏幕宽度
      */
-    public static int getScreenW(Activity activity) {
+    public static int getScreenW(Context context) {
         DisplayMetrics dm ;
-        dm = activity.getResources().getDisplayMetrics();
+        dm = context.getResources().getDisplayMetrics();
         int w = dm.widthPixels;
         return w;
     }

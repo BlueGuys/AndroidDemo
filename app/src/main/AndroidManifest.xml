@@ -38,6 +38,7 @@
         <activity android:name="com.hongyan.res.drawable.InsetDrawableActivity" />
         <activity android:name="com.hongyan.activity.CustomViewActivity" />
         <activity android:name="com.hongyan.activity.CustomDialogActivity" />
+        <activity android:name="com.hongyan.activity.CanvasActivity" />
     </application>
 
 </manifest>

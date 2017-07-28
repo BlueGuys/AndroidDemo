@@ -33,4 +33,8 @@ public class MainActivity extends BaseActivity {
     public void onClick04(View v) {
         startActivity(new Intent(MainActivity.this, CustomViewActivity.class));
     }
+
+    public void onClick05(View v) {
+        startActivity(new Intent(MainActivity.this, CanvasActivity.class));
+    }
 }

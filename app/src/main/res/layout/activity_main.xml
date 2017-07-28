@@ -30,6 +30,11 @@
             style="@style/button"
             android:onClick="onClick04"
             android:text="自定义View" />
+
+        <Button
+            style="@style/button"
+            android:onClick="onClick05"
+            android:text="Canvas" />
     </LinearLayout>
 
 </ScrollView>
