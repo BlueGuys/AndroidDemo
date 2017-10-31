@@ -52,7 +52,7 @@ public class CanvasTestView extends View {
                 canvas.drawRect(rect, paint);
                 break;
             case 1://圆形
-                paint.setColor(Color.RED);
+                paint.setColor(Color.parseColor("#00ff00"));
                 canvas.drawCircle(centerX, centerY, 150, paint);
                 break;
             case 2://三角形

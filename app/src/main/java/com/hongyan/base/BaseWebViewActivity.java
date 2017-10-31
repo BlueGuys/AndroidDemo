@@ -1,5 +1,6 @@
 package com.hongyan.base;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -101,6 +102,7 @@ public class BaseWebViewActivity extends BaseActivity {
         return result.toString();
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     private void initContent() {
         mWebView = (WebView) findViewById(R.id.webView);
         try {
