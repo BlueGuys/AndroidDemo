@@ -12,32 +12,13 @@
         <Button
             style="@style/button"
             android:onClick="onClick01"
-            android:text="资源类型" />
+            android:text="微信" />
 
         <Button
             style="@style/button"
             android:onClick="onClick02"
-            android:text="动画" />
+            android:text="支付宝" />
 
-        <Button
-            style="@style/button"
-            android:onClick="onClick03"
-            android:text="工具类" />
-
-        <Button
-            style="@style/button"
-            android:onClick="onClick04"
-            android:text="自定义View" />
-
-        <Button
-            style="@style/button"
-            android:onClick="onClick05"
-            android:text="Canvas" />
-
-        <Button
-            style="@style/button"
-            android:onClick="onClick06"
-            android:text="支付" />
     </LinearLayout>
 
 </ScrollView>

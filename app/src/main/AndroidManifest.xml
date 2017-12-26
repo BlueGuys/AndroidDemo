@@ -39,6 +39,7 @@
         <activity android:name="com.hongyan.activity.CustomViewActivity" />
         <activity android:name="com.hongyan.activity.CustomDialogActivity" />
         <activity android:name="com.hongyan.activity.CanvasActivity" />
+        <activity android:name="com.hongyan.activity.PayActivity" />
     </application>
 
 </manifest>

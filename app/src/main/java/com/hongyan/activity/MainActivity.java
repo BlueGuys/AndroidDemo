@@ -37,4 +37,8 @@ public class MainActivity extends BaseActivity {
     public void onClick05(View v) {
         startActivity(new Intent(MainActivity.this, CanvasActivity.class));
     }
+
+    public void onClick06(View v) {
+        startActivity(new Intent(MainActivity.this, PayActivity.class));
+    }
 }

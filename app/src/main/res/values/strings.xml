@@ -13,6 +13,7 @@
     <string name="activity_custom_view">自定义View</string>
     <string name="activity_custom_dialog">弹框提示</string>
     <string name="activity_canvas">画布训练</string>
+    <string name="activity_pay">支付</string>
 
 
 
